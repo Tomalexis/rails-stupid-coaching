@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#answer {
+  background-color: lightyellow;
+  padding-left: 10px;
+  border-left: 8px solid lightgray;
+}
+
+#question {
+  padding-left: 10px;
+  border-left: solid 8px lightgray;
+  margin-bottom: 30px;
+}
+
+.title {
+  margin: 20px 0px;
+}
